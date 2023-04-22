@@ -1,0 +1,13 @@
+server:
+  port: 2100
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Movie
+    username: root
+    password: Test@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+

@@ -1,0 +1,26 @@
+package com.example.LMS.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "customer_table")
+public class Customer {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+ private int customerId;
+ private String firstName;
+ private String lastName;
+ private int age;
+ private String dob;
+ private long phoneNo;
+ private String state;
+ private String district;
+ private boolean isActive;
+
+ private List<Loan> loans=ArrayLis
+ 
+}
